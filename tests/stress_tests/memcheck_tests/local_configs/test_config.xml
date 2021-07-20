@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<attributes>
+    <devices>
+        <value>CPU</value>
+        <value>GPU</value>
+    </devices>
+    <models>
+        <model name="vgg16" precision="FP32" source="omz"/>
+        <model name="mtcnn-r" precision="FP32" source="omz"/>
+        <model name="mobilenet-ssd" precision="FP32" source="omz"/>
+        <model name="ssd300" precision="FP32" source="omz"/>
+    </models>
+</attributes>
